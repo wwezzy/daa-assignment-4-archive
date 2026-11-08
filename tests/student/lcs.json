@@ -1,0 +1,37 @@
+[
+  {
+    "name": "lcs-both-empty",
+    "input": {"task": "lcs", "a": "", "b": ""},
+    "output": {"length": 0, "sequence": ""}
+  },
+  {
+    "name": "lcs-first-empty",
+    "input": {"task": "lcs", "a": "", "b": "A"},
+    "output": {"length": 0, "sequence": ""}
+  },
+  {
+    "name": "lcs-second-empty",
+    "input": {"task": "lcs", "a": "A", "b": ""},
+    "output": {"length": 0, "sequence": ""}
+  },
+  {
+    "name": "lcs-gap-in-first-string",
+    "input": {"task": "lcs", "a": "ABC", "b": "AC"},
+    "output": {"length": 2, "sequence": "AC"}
+  },
+  {
+    "name": "lcs-repeated-characters",
+    "input": {"task": "lcs", "a": "AABBA", "b": "ABABA"},
+    "output": {"length": 4, "sequence": "AABA"}
+  },
+  {
+    "name": "lcs-alternative-optima",
+    "input": {"task": "lcs", "a": "AB", "b": "BA"},
+    "output": {"length": 1, "sequence": "B"}
+  },
+  {
+    "name": "lcs-case-sensitive-and-disjoint",
+    "input": {"task": "lcs", "a": "a!", "b": "A?"},
+    "output": {"length": 0, "sequence": ""}
+  }
+]

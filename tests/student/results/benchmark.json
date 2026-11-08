@@ -1,0 +1,319 @@
+{
+  "java": "17.0.20.1+1-LTS",
+  "vm": "OpenJDK 64-Bit Server VM",
+  "os": "Windows 11 amd64",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "logical_processors": 20,
+  "max_heap_bytes": 402653184,
+  "warmups_per_algorithm_case": 15,
+  "trials": 5,
+  "timer": "System.nanoTime",
+  "rows": [
+    {
+      "case": "random",
+      "n": 500,
+      "m": 100,
+      "seed": 20261608,
+      "algorithm": "naive",
+      "matches": 1,
+      "times_ms": [
+        0.0142,
+        0.0134,
+        0.0124,
+        0.0124,
+        0.0149
+      ],
+      "median_ms": 0.0134,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 500,
+      "m": 100,
+      "seed": 20261608,
+      "algorithm": "kmp",
+      "matches": 1,
+      "times_ms": [
+        0.0365,
+        0.0359,
+        0.0341,
+        0.0354,
+        0.0355
+      ],
+      "median_ms": 0.0355,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 500,
+      "m": 100,
+      "seed": 20261608,
+      "algorithm": "rk",
+      "matches": 1,
+      "times_ms": [
+        0.0277,
+        0.0284,
+        0.0262,
+        0.0273,
+        0.0274
+      ],
+      "median_ms": 0.0274,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 500,
+      "m": 100,
+      "seed": 20261608,
+      "algorithm": "naive",
+      "matches": 401,
+      "times_ms": [
+        0.0807,
+        0.0821,
+        0.0715,
+        0.0734,
+        0.0719
+      ],
+      "median_ms": 0.0734,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 500,
+      "m": 100,
+      "seed": 20261608,
+      "algorithm": "kmp",
+      "matches": 401,
+      "times_ms": [
+        0.0591,
+        0.0605,
+        0.0577,
+        0.0559,
+        0.0531
+      ],
+      "median_ms": 0.0577,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 500,
+      "m": 100,
+      "seed": 20261608,
+      "algorithm": "rk",
+      "matches": 401,
+      "times_ms": [
+        0.1071,
+        0.1044,
+        0.1022,
+        0.097,
+        0.095
+      ],
+      "median_ms": 0.1022,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 1500,
+      "m": 300,
+      "seed": 20262608,
+      "algorithm": "naive",
+      "matches": 1,
+      "times_ms": [
+        0.0247,
+        0.0266,
+        0.0266,
+        0.0269,
+        0.0257
+      ],
+      "median_ms": 0.0266,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 1500,
+      "m": 300,
+      "seed": 20262608,
+      "algorithm": "kmp",
+      "matches": 1,
+      "times_ms": [
+        0.1017,
+        0.1135,
+        0.1132,
+        0.1112,
+        0.1108
+      ],
+      "median_ms": 0.1112,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 1500,
+      "m": 300,
+      "seed": 20262608,
+      "algorithm": "rk",
+      "matches": 1,
+      "times_ms": [
+        0.0866,
+        0.0852,
+        0.0855,
+        0.0869,
+        0.0838
+      ],
+      "median_ms": 0.0855,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 1500,
+      "m": 300,
+      "seed": 20262608,
+      "algorithm": "naive",
+      "matches": 1201,
+      "times_ms": [
+        0.563,
+        0.585,
+        0.5691,
+        0.5698,
+        0.5464
+      ],
+      "median_ms": 0.5691,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 1500,
+      "m": 300,
+      "seed": 20262608,
+      "algorithm": "kmp",
+      "matches": 1201,
+      "times_ms": [
+        0.0414,
+        0.0364,
+        0.043,
+        0.0489,
+        0.0422
+      ],
+      "median_ms": 0.0422,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 1500,
+      "m": 300,
+      "seed": 20262608,
+      "algorithm": "rk",
+      "matches": 1201,
+      "times_ms": [
+        0.5518,
+        0.5287,
+        0.5675,
+        0.5651,
+        0.5668
+      ],
+      "median_ms": 0.5651,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 3000,
+      "m": 600,
+      "seed": 20264108,
+      "algorithm": "naive",
+      "matches": 1,
+      "times_ms": [
+        0.0126,
+        0.0122,
+        0.0121,
+        0.0172,
+        0.0119
+      ],
+      "median_ms": 0.0122,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 3000,
+      "m": 600,
+      "seed": 20264108,
+      "algorithm": "kmp",
+      "matches": 1,
+      "times_ms": [
+        0.0453,
+        0.0453,
+        0.0451,
+        0.0456,
+        0.0448
+      ],
+      "median_ms": 0.0453,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 3000,
+      "m": 600,
+      "seed": 20264108,
+      "algorithm": "rk",
+      "matches": 1,
+      "times_ms": [
+        0.0479,
+        0.0345,
+        0.0345,
+        0.0347,
+        0.0347
+      ],
+      "median_ms": 0.0347,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 3000,
+      "m": 600,
+      "seed": 20264108,
+      "algorithm": "naive",
+      "matches": 2401,
+      "times_ms": [
+        1.8069,
+        1.6441,
+        1.6243,
+        1.2501,
+        1.2419
+      ],
+      "median_ms": 1.6243,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 3000,
+      "m": 600,
+      "seed": 20264108,
+      "algorithm": "kmp",
+      "matches": 2401,
+      "times_ms": [
+        0.0262,
+        0.0232,
+        0.0284,
+        0.0305,
+        0.0204
+      ],
+      "median_ms": 0.0262,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 3000,
+      "m": 600,
+      "seed": 20264108,
+      "algorithm": "rk",
+      "matches": 2401,
+      "times_ms": [
+        3.1173,
+        2.5865,
+        2.6335,
+        2.6035,
+        2.5161
+      ],
+      "median_ms": 2.6035,
+      "correct": true
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+PASS setup: ping
+Note: C:\Users\alnbu\Documents\StudyProjects\daa-assignment-4-archive\Java\source\Main.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Language: Java

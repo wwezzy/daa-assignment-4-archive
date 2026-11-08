@@ -1,0 +1,72 @@
+{
+  "seed": 20261108,
+  "started_utc": "2026-11-08T09:16:17.985893+00:00",
+  "public": {
+    "requests": 44,
+    "tasks": {
+      "ping": 1,
+      "lcs": 4,
+      "merge": 5,
+      "tree": 5,
+      "naive": 6,
+      "kmp": 6,
+      "rk": 7,
+      "suffix": 5,
+      "aho": 5
+    },
+    "seconds": 0.10389620000205468
+  },
+  "small": {
+    "requests": 3683,
+    "tasks": {
+      "lcs": 968,
+      "merge": 368,
+      "tree": 187,
+      "naive": 571,
+      "kmp": 571,
+      "rk": 571,
+      "suffix": 282,
+      "aho": 165
+    },
+    "seconds": 0.1569766000029631
+  },
+  "mixed": {
+    "requests": 7454,
+    "tasks": {
+      "lcs": 1944,
+      "naive": 1154,
+      "rk": 1156,
+      "kmp": 1154,
+      "merge": 746,
+      "tree": 384,
+      "aho": 340,
+      "suffix": 574,
+      "ping": 2
+    },
+    "seconds": 0.20451869999669725
+  },
+  "scale": {
+    "requests": 22,
+    "tasks": {
+      "lcs": 3,
+      "merge": 2,
+      "tree": 3,
+      "naive": 2,
+      "kmp": 3,
+      "rk": 3,
+      "suffix": 2,
+      "aho": 4
+    },
+    "seconds": 0.9620572999992874
+  },
+  "witness_validator_checks": 8,
+  "benchmark_rows": 18,
+  "sha256": {
+    "Java/source/Algorithms.java": "e337ff3e0e7fb3ccd5b5dc04570d9126d4f7868ddd30c7338adecbee99af3161",
+    "tests/student/verify.py": "8d58a94687a18a11012c4981416cf94ac8acd436ff0262d12c9503dc303d7df5",
+    "tests/student/SearchBenchmark.java": "6298af0443559308492ae2a3901012fc7642969eb6569d7ecd7c34bef64bcafa",
+    "tests/student/lcs.json": "9ba310a9bb0180bb679c5c58bb9ac36f7789bbb664df47db43c91f0f58fbf274"
+  },
+  "finished_utc": "2026-11-08T09:16:21.942054+00:00",
+  "status": "passed"
+}
